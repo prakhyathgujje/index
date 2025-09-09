@@ -2,7 +2,6 @@
 *{
     box-sizing: border-box;
     font-family: old english text;
-    
  }
   
  /* Header section */
@@ -23,7 +22,6 @@
 /* Body Section */
 body{
    font-family: old english text;
-
 }
  /* end of body section  */
 section#home{
@@ -40,10 +38,7 @@ section#home{
    justify-content: space-between;
    font-size: xx-large;
    background-repeat: no-repeat;
-
  }
- 
-
  /* navigation start here */
  nav{
    float: left;
@@ -92,9 +87,6 @@ body header li :hover{
     border: solid gray;
     }
  /* end of article section */
-
- 
-
  /* footer section */
 
  /* end of footer section */
@@ -113,7 +105,6 @@ a:hover{
     color:aliceblue;
     justify-content: space-between;
     position: fixed;
-    
  }
  div.left{
    float: left;
@@ -124,23 +115,18 @@ a:hover{
    font-family:old english text;
    justify-content: space-around;
 }
-
-
  /* SPAN sectioN */
  span{
    color:darkred;
    text-transform:uppercase;
    }
-
-
    .background-image{
       position: fixed;
       width: 100%;
       height: 100vh;
       background-attachment: fixed;
     }
-
-.cta {
+.cta{
 	display: inline-block;
 	padding: 10px 30px;
    	text-decoration: none;
@@ -158,8 +144,6 @@ a:hover{
 	color: white;
 	background-color: darkred;
 }
-
-   
 #reference{
    background-image: url(https://www.corporatevision-news.com/wp-content/uploads/2020/11/cv.jpg);
    background-repeat: no-repeat;
@@ -204,3 +188,4 @@ div.right{
    font-size: larger;
    font-family: old english text;
 }
+
