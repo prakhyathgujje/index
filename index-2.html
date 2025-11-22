@@ -1,0 +1,396 @@
+<!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-tag">My Work</span>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Real-world AI/ML and Full Stack solutions delivered</p>
+        </div>
+
+        <!-- Project Filter -->
+        <div class="project-filter" data-aos="fade-up">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="ai-ml">AI/ML</button>
+            <button class="filter-btn" data-filter="computer-vision">Computer Vision</button>
+            <button class="filter-btn" data-filter="nlp">NLP</button>
+            <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- Project 1: CCTV Facial Recognition & Attendance -->
+            <div class="project-card featured" data-category="ai-ml computer-vision" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image">
+                    <img src="cctv-attendance.jpg" alt="CCTV Facial Recognition Attendance System">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" title="View Details">
+                                <i class="fas fa-info-circle"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <span class="project-badge featured-badge">⭐ Featured Project</span>
+                        <span class="project-category">Computer Vision • Production</span>
+                    </div>
+                    <h3>CCTV-Based Facial Recognition & Attendance System</h3>
+                    <p class="project-description">
+                        Production-grade facial recognition system for automated attendance tracking using <strong>VGG-Face</strong>, 
+                        <strong>Facenet512</strong>, and <strong>DeepFace</strong> libraries. Implemented comprehensive model 
+                        evaluation with precision, recall, and F1-score metrics, achieving 94%+ accuracy in real-world CCTV scenarios.
+                    </p>
+                    <div class="project-highlights">
+                        <h5>Key Achievements:</h5>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Integrated multiple face recognition models (VGG-Face, Facenet512, DeepFace) for ensemble predictions</li>
+                            <li><i class="fas fa-check"></i> Built comprehensive evaluation pipeline with F1-score, precision, recall visualization from .pkl files</li>
+                            <li><i class="fas fa-check"></i> Handled varied CCTV conditions: low light, multiple faces, different angles</li>
+                            <li><i class="fas fa-check"></i> Real-time attendance marking with 100ms inference latency</li>
+                            <li><i class="fas fa-check"></i> Image annotation using LabelMe for custom training datasets</li>
+                            <li><i class="fas fa-check"></i> Model comparison dashboard with matplotlib/seaborn visualizations</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span>VGG-Face</span>
+                        <span>Facenet512</span>
+                        <span>DeepFace</span>
+                        <span>OpenCV</span>
+                        <span>TensorFlow</span>
+                        <span>FastAPI</span>
+                        <span>LabelMe</span>
+                        <span>Matplotlib</span>
+                        <span>Scikit-learn</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-percentage"></i>
+                            <span>94% Accuracy</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-chart-line"></i>
+                            <span>F1-Score: 0.92</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-clock"></i>
+                            <span><100ms Latency</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-users"></i>
+                            <span>500+ Employees</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Resume Parsing System -->
+            <div class="project-card featured" data-category="ai-ml nlp" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-image">
+                    <img src="resume-parsing.jpg" alt="Resume Parsing & Information Extraction">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link" title="View Details">
+                                <i class="fas fa-info-circle"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <span class="project-badge featured-badge">⭐ Featured Project</span>
+                        <span class="project-category">NLP • Text Analysis</span>
+                    </div>
+                    <h3>AI-Powered Resume Parsing & Information Extraction</h3>
+                    <p class="project-description">
+                        End-to-end NLP pipeline for automated resume analysis and structured data extraction. Built comprehensive 
+                        text annotation workflow using <strong>Doccano</strong>, trained custom <strong>spaCy</strong> models for 
+                        Named Entity Recognition (NER), and extracted key information like skills, experience, education, and certifications.
+                    </p>
+                    <div class="project-highlights">
+                        <h5>Key Features:</h5>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Automated PDF/DOCX to text conversion with preprocessing pipeline</li>
+                            <li><i class="fas fa-check"></i> Text annotation using Doccano for 2000+ resumes (NER training data)</li>
+                            <li><i class="fas fa-check"></i> Custom spaCy NER models for extracting: Name, Email, Phone, Skills, Experience, Education</li>
+                            <li><i class="fas fa-check"></i> Text classification for job role categorization (ML Engineer, Developer, etc.)</li>
+                            <li><i class="fas fa-check"></i> Skill matching algorithm with keyword extraction using NLTK</li>
+                            <li><i class="fas fa-check"></i> Structured JSON/CSV output for ATS (Applicant Tracking System) integration</li>
+                            <li><i class="fas fa-check"></i> RESTful API with FastAPI for seamless integration</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span>spaCy</span>
+                        <span>NLTK</span>
+                        <span>Doccano</span>
+                        <span>PyPDF2</span>
+                        <span>python-docx</span>
+                        <span>Pandas</span>
+                        <span>FastAPI</span>
+                        <span>MongoDB</span>
+                        <span>Regex</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-file-alt"></i>
+                            <span>2000+ Resumes</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-percentage"></i>
+                            <span>89% Extraction Accuracy</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-tags"></i>
+                            <span>15+ Entity Types</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: Facial Emotion Detection -->
+            <div class="project-card" data-category="ai-ml computer-vision" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-image">
+                    <img src="emotion-detection.jpg" alt="Facial Emotion Detection System">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-info-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <span class="project-category">Computer Vision • Deep Learning</span>
+                    </div>
+                    <h3>Real-Time Facial Emotion Detection System</h3>
+                    <p class="project-description">
+                        Deep learning-based emotion recognition system capable of detecting 7 emotions (Happy, Sad, Angry, 
+                        Surprise, Fear, Disgust, Neutral) from facial expressions. Used <strong>LabelMe</strong> for image 
+                        annotation and trained custom CNN models on augmented datasets.
+                    </p>
+                    <div class="project-highlights">
+                        <h5>Technical Implementation:</h5>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Annotated 5000+ facial images using LabelMe for emotion labeling</li>
+                            <li><i class="fas fa-check"></i> Built custom CNN architecture with transfer learning (VGG16 base)</li>
+                            <li><i class="fas fa-check"></i> Data augmentation: rotation, flipping, brightness adjustment</li>
+                            <li><i class="fas fa-check"></i> Real-time webcam emotion detection with OpenCV</li>
+                            <li><i class="fas fa-check"></i> Achieved 87% accuracy on validation set</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>Keras</span>
+                        <span>OpenCV</span>
+                        <span>LabelMe</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-smile"></i>
+                            <span>7 Emotions</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-percentage"></i>
+                            <span>87% Accuracy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4: Model Performance Analysis Dashboard -->
+            <div class="project-card" data-category="ai-ml" data-aos="fade-up" data-aos-delay="400">
+                <div class="project-image">
+                    <img src="model-analysis.jpg" alt="ML Model Performance Analysis">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <span class="project-category">ML Evaluation • Data Viz</span>
+                    </div>
+                    <h3>ML Model Performance Analysis & Visualization Dashboard</h3>
+                    <p class="project-description">
+                        Comprehensive model evaluation framework for comparing multiple facial recognition models. 
+                        Developed automated visualization pipeline that loads model predictions from <strong>.pkl files</strong> 
+                        and generates detailed performance reports with confusion matrices, ROC curves, precision-recall curves, 
+                        and F1-score comparisons.
+                    </p>
+                    <div class="project-highlights">
+                        <h5>Features:</h5>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Load and compare predictions from multiple .pkl files (VGG-Face, Facenet512, DeepFace)</li>
+                            <li><i class="fas fa-check"></i> Automated generation of confusion matrices and classification reports</li>
+                            <li><i class="fas fa-check"></i> ROC-AUC curves and precision-recall visualizations</li>
+                            <li><i class="fas fa-check"></i> F1-score, precision, recall comparison across models</li>
+                            <li><i class="fas fa-check"></i> Interactive plots with matplotlib and seaborn</li>
+                            <li><i class="fas fa-check"></i> PDF report generation for stakeholder presentations</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Scikit-learn</span>
+                        <span>Matplotlib</span>
+                        <span>Seaborn</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Pickle</span>
+                        <span>Plotly</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5: Angular 14 CRUD Application -->
+            <div class="project-card" data-category="fullstack" data-aos="fade-up" data-aos-delay="500">
+                <div class="project-image">
+                    <img src="angular-crud.jpg" alt="Angular 14 CRUD Application">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/prakhyathgujje" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <span class="project-category">Full Stack Development</span>
+                    </div>
+                    <h3>Employee Management System - Angular 14 CRUD</h3>
+                    <p class="project-description">
+                        Full-featured employee management application built with <strong>Angular 14</strong> and 
+                        <strong>TypeScript</strong>. Implements complete CRUD operations with RESTful API integration, 
+                        form validation, search/filter functionality, and responsive design.
+                    </p>
+                    <div class="project-highlights">
+                        <h5>Key Features:</h5>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Complete CRUD operations (Create, Read, Update, Delete)</li>
+                            <li><i class="fas fa-check"></i> Angular Reactive Forms with validation</li>
+                            <li><i class="fas fa-check"></i> RESTful API integration with HttpClient</li>
+                            <li><i class="fas fa-check"></i> Advanced search, filter, and pagination</li>
+                            <li><i class="fas fa-check"></i> Responsive UI with Angular Material</li>
+                            <li><i class="fas fa-check"></i> State management with RxJS and Services</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span><i class="fab fa-angular"></i> Angular 14</span>
+                        <span>TypeScript</span>
+                        <span>RxJS</span>
+                        <span>Angular Material</span>
+                        <span>HTML/CSS</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6: Portfolio Website -->
+            <div class="project-card" data-category="fullstack" data-aos="fade-up" data-aos-delay="600">
+                <div class="project-image">
+                    <img src="portfolio-project.jpg" alt="Professional Portfolio Website">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#home" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/prakhyathgujje" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <span class="project-category">Web Development</span>
+                    </div>
+                    <h3>Professional Portfolio Website</h3>
+                    <p class="project-description">
+                        Modern, responsive portfolio website built with <strong>HTML5</strong>, <strong>CSS3</strong>, 
+                        and <strong>JavaScript</strong>. Features smooth animations, AOS library integration, dynamic 
+                        content filtering, and optimized performance.
+                    </p>
+                    <div class="project-highlights">
+                        <h5>Features:</h5>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Fully responsive design (mobile-first approach)</li>
+                            <li><i class="fas fa-check"></i> Smooth scroll animations with AOS library</li>
+                            <li><i class="fas fa-check"></i> Dynamic project filtering</li>
+                            <li><i class="fas fa-check"></i> Contact form with validation</li>
+                            <li><i class="fas fa-check"></i> SEO optimized with meta tags</li>
+                            <li><i class="fas fa-check"></i> Fast loading with optimized assets</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>AOS Library</span>
+                        <span>Font Awesome</span>
+                        <span>Git</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 7: Crowd Tagging HITS Algorithm (Academic) -->
+            <div class="project-card" data-category="ai-ml" data-aos="fade-up" data-aos-delay="700">
+                <div class="project-image">
+                    <img src="hits-algorithm.jpg" alt="Crowd Tagging HITS Algorithm">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-info-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <span class="project-category">Academic Project • Algorithm</span>
+                    </div>
+                    <h3>Crowd Tagging through HITS Algorithm</h3>
+                    <p class="project-description">
+                        MCA thesis project implementing <strong>HITS (Hyperlink-Induced Topic Search)</strong> algorithm 
+                        for automated crowd tagging and content classification. Applied graph-based ranking to identify 
+                        authoritative tags and relevant content hubs in social media data.
+                    </p>
+                    <div class="project-highlights">
+                        <h5>Academic Contribution:</h5>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Implemented HITS algorithm from scratch in Python</li>
+                            <li><i class="fas fa-check"></i> Graph construction from social media metadata</li>
+                            <li><i class="fas fa-check"></i> Authority and Hub score calculation for tag ranking</li>
+                            <li><i class="fas fa-check"></i> Comparative analysis with PageRank algorithm</li>
+                            <li><i class="fas fa-check"></i> Data visualization using NetworkX and Matplotlib</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>NetworkX</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                        <span>Matplotlib</span>
+                        <span>Graph Theory</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>MCA Thesis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- View More Projects Button -->
+        <div class="view-more" data-aos="fade-up">
+            <a href="https://github.com/prakhyathgujje" target="_blank" class="btn btn-outline">
+                <i class="fab fa-github"></i> View More on GitHub
+            </a>
+        </div>
+    </div>
+</section>
